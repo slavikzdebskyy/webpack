@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.formfield,
+.rate-cont {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rate-cont {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.input {
+  height: 60px;
+  border: 1px solid aqua;
+  width: 250px;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.input:first-child {
+  margin-left: 40px;
+}
+
+.label {
+  margin: 10px;
+}
+
+.input[type=number]::-webkit-inner-spin-button, 
+.input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.rate {
+  font-size: 24px;
+  margin: 0 10px;
+}
